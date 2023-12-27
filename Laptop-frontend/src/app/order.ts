@@ -1,0 +1,21 @@
+export class Order {
+    id!:number;
+    userEmail!:string;
+    laptopId!:number;
+    imgUrl!:string;
+	laptopName!:string;
+	price!:number;
+	paymentMethod!:string;
+    CardNumber!:number;
+	cardownerName!:string;
+	cvv!:string;
+	month!:number;
+	year!:number;
+	bankName!:string;
+	bankBranch!:string;
+	accountHolderName!:string;
+	accountNumber!:number;
+	googlePayUserName!:string;
+	upi!:string;
+	date!:string;
+}

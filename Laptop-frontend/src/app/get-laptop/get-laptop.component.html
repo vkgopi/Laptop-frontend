@@ -1,0 +1,11 @@
+<body>
+    <div class="galary" *ngFor="let laptop of laptopList">
+        <button (click)="getLaptopById(laptop.laptopId)">
+        <img src="{{laptop.LaptopImg}}" height="200" width="200"/>
+        <div class="disc">
+        <p>{{laptop.laptopName}}</p>
+        <p>Price : {{laptop.price}} .Rs</p>
+        </div>
+        </button>
+    </div>
+</body>
